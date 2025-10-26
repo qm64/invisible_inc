@@ -1,0 +1,118 @@
+
+============================================================
+Testing Structural Detector v1.1.2 on: window_test_agent_moving.png
+============================================================
+
+  Found PWR anchor at (158, 22)
+✓ Found power/credits at (145, 22) size 197×14
+✓ Found hamburger menu at (2382, 14)
+  Security clock search region: x=2060, y=0, w=500, h=434
+  Found 12904 red pixels in search region
+  Found 12 contours
+    Contour at (205,58) size 162x186 area=19656 score=0.894
+✓ Found security clock at (2265, 58) with score 0.894
+✓ Found tactical view at (1186, 14)
+✓ Found end turn at (2177, 1236)
+⚠ Alarm not found (may be inactive)
+⚠ Daemons panel not found
+✓ Found objectives panel at (2088, 1140)
+⚠ Profile rectangle not found (may be absent)
+⚠ Cannot detect agent icons without profile rectangle
+⚠ Augments panel not found (agent not selected)
+⚠ Inventory panel not found (agent not selected)
+⚠ Quick actions panel not found (agent not selected)
+
+============================================================
+Detection Summary:
+============================================================
+Found 6 elements:
+  - power_text: confidence=0.90, method=power_credits_full_text
+  - hamburger_menu: confidence=0.95, method=horizontal_lines_pattern
+  - security_clock: confidence=0.85, method=red_circular_shape
+  - tactical_view: confidence=0.80, method=teal_polygon_top_center
+  - end_turn: confidence=0.90, method=cyan_polygon_bottom_right
+  - objectives: confidence=0.70, method=text_panel_lower_right
+✓ Inferred viewport from power/credits: (145, 12, 2270, 1278)
+
+Viewport: (145, 12, 2270, 1278)
+
+============================================================
+Extracted Values:
+============================================================
+  OCR region: 197×24px
+  OCR attempt 1: '1/20PWR 72314'
+  OCR attempt 2: '1/20PWR 72314'
+  OCR attempt 3: '1/20 PR'
+Power: 1/20
+  OCR region: 197×24px
+  OCR attempt 1: '1/20PWR 72314'
+  OCR attempt 2: '1/20PWR 72314'
+  OCR attempt 3: '1/20 PR'
+  Fallback - all numbers found: ['1', '20', '72314']
+Credits: 72314
+Security Level: 2
+✓ Inferred viewport from power/credits: (145, 12, 2270, 1278)
+
+✓ Saved visualization to window_test_agent_moving_detected.png
+✓ Inferred viewport from power/credits: (145, 12, 2270, 1278)
+✓ Saved detections to window_test_agent_moving_detected.json
+
+============================================================
+Testing Structural Detector v1.1.2 on: window_test_drone.png
+============================================================
+
+  Found PWR anchor at (158, 22)
+✓ Found power/credits at (145, 22) size 197×14
+✓ Found hamburger menu at (2382, 14)
+  Security clock search region: x=2060, y=0, w=500, h=434
+  Found 12897 red pixels in search region
+  Found 12 contours
+    Contour at (204,58) size 163x186 area=19672 score=0.895
+✓ Found security clock at (2264, 58) with score 0.895
+✓ Found tactical view at (1186, 14)
+✓ Found end turn at (2177, 1236)
+⚠ Alarm not found (may be inactive)
+⚠ Daemons panel not found
+✓ Found objectives panel at (2088, 1140)
+✓ Found profile rectangle at (148, 1057)
+  Profile rectangle top at y=1057
+
+============================================================
+Testing Structural Detector v1.1.2 on: window_test_mainframe.png
+============================================================
+
+  Found PWR anchor at (160, 22)
+✓ Found power/credits at (146, 22) size 196×14
+✓ Found hamburger menu at (2382, 14)
+  Security clock search region: x=2060, y=0, w=500, h=434
+  Found 12896 red pixels in search region
+  Found 12 contours
+    Contour at (205,58) size 162x186 area=19652 score=0.894
+✓ Found security clock at (2265, 58) with score 0.894
+✓ Found tactical view at (1186, 14)
+✓ Found end turn at (2177, 1236)
+⚠ Alarm not found (may be inactive)
+⚠ Daemons panel not found
+✓ Found objectives panel at (2088, 1140)
+✓ Found profile rectangle at (148, 1057)
+  Profile rectangle top at y=1057
+
+============================================================
+Testing Structural Detector v1.1.2 on: window_test_normal.png
+============================================================
+
+  Found PWR anchor at (168, 22)
+✓ Found power/credits at (145, 22) size 197×14
+✓ Found hamburger menu at (2382, 14)
+  Security clock search region: x=2060, y=0, w=500, h=434
+  Found 13370 red pixels in search region
+  Found 12 contours
+    Contour at (205,58) size 162x186 area=19621 score=0.894
+✓ Found security clock at (2265, 58) with score 0.894
+✓ Found tactical view at (1186, 14)
+✓ Found end turn at (2177, 1236)
+⚠ Alarm not found (may be inactive)
+⚠ Daemons panel not found
+✓ Found objectives panel at (2088, 1140)
+✓ Found profile rectangle at (148, 1057)
+  Profile rectangle top at y=1057

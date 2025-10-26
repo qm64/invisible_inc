@@ -1,0 +1,75 @@
+GAME STATUS DETECTOR - FILE OVERVIEW
+=====================================
+
+MAIN FILES (Use These)
+----------------------
+✓ game_status_detector.py       Main detection script - analyze captured sessions
+✓ debug_status_detector.py       Debug tool - test detection on single frames
+✓ requirements.txt              Complete Python dependencies (unified for entire project)
+
+DOCUMENTATION (Read These)
+--------------------------
+→ INSTALLATION.md               START HERE - Complete installation guide
+→ README.md                     Package overview and quick reference
+→ QUICKSTART.md                 Quick start guide (subset of INSTALLATION.md)
+→ STATUS_DETECTOR_README.md     Technical documentation
+→ SYSTEM_SUMMARY.md            Architecture and development guide
+→ UPDATE_NOTES.md              Recent changes (Tkinter requirement added)
+
+LEGACY/REFERENCE
+----------------
+• requirements_status.txt        Original requirements (now superseded by requirements.txt)
+• FILES_OVERVIEW.txt            This file
+
+INSTALLATION CHECKLIST
+----------------------
+□ Install Tesseract:     brew install tesseract
+□ Install Tkinter:       brew install python-tk@3.13
+□ Install Python deps:   pip install -r requirements.txt
+□ Verify Tesseract:      tesseract --version
+□ Verify Tkinter:        python -c "import tkinter"
+□ Test detection:        python debug_status_detector.py [frame.png] --all
+
+USAGE EXAMPLES
+--------------
+# Debug single frame
+python debug_status_detector.py captures/session_X/frames/frame_0050.png --all
+
+# Analyze full session
+python game_status_detector.py captures/session_X
+
+# With debug output
+python game_status_detector.py captures/session_X --debug
+
+# Custom workers
+python game_status_detector.py captures/session_X --workers 8
+
+OUTPUT LOCATIONS
+----------------
+Analysis results:  captures/session_X/game_status.json
+Debug images:      /tmp/status_debug/
+
+RECOMMENDED WORKFLOW
+--------------------
+1. Read INSTALLATION.md (if first time)
+2. Install system dependencies (Tesseract, Tkinter)
+3. Install Python packages (pip install -r requirements.txt)
+4. Test on sample frame (debug_status_detector.py)
+5. Analyze captured session (game_status_detector.py)
+6. Review results (game_status.json)
+
+INTEGRATION WITH OTHER TOOLS
+-----------------------------
+invisible_capture.py      → Captures gameplay frames
+turn_phase_detector.py    → Classifies turn phases
+game_status_detector.py   → Extracts game status (YOU ARE HERE)
+web_viewer.py            → View results in browser
+
+SUPPORT & TROUBLESHOOTING
+--------------------------
+Check INSTALLATION.md "Troubleshooting" section for common issues:
+- "tesseract: command not found"
+- "No module named 'tkinter'"
+- "pynput import fails"
+- "Low OCR accuracy"
+

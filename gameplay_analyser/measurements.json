@@ -1,0 +1,52 @@
+{
+  "image": "captures/20251022_201216/frames/frame_000081.png",
+  "width": 2560,
+  "height": 1440,
+  "boxes": [
+    {
+      "name": "agent_1_ap",
+      "x": 66,
+      "y": 1120,
+      "width": 60,
+      "height": 19,
+      "x2": 126,
+      "y2": 1139
+    },
+    {
+      "name": "agent_2_ap",
+      "x": 65,
+      "y": 1157,
+      "width": 61,
+      "height": 22,
+      "x2": 126,
+      "y2": 1179
+    },
+    {
+      "name": "agent_1_icon",
+      "x": 24,
+      "y": 1107,
+      "width": 41,
+      "height": 39,
+      "x2": 65,
+      "y2": 1146
+    },
+    {
+      "name": "agent_2_icon",
+      "x": 25,
+      "y": 1148,
+      "width": 36,
+      "height": 42,
+      "x2": 61,
+      "y2": 1190
+    },
+    {
+      "name": "agent_large_profile",
+      "x": 24,
+      "y": 1194,
+      "width": 185,
+      "height": 223,
+      "x2": 209,
+      "y2": 1417
+    }
+  ]
+}

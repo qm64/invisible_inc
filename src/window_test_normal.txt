@@ -1,0 +1,121 @@
+
+============================================================
+Testing Structural Detector v1.2.5 on: window_test_normal.png
+============================================================
+
+  Found PWR anchor at (168, 22)
+✓ Found power/credits at (145, 22) size 197×14
+✓ Found hamburger menu at (2382, 14)
+  Security clock search region: x=2060, y=0, w=500, h=434
+  Found 13370 red pixels in search region
+  Found 12 contours
+    Contour at (205,58) size 162x186 area=19621 score=0.894
+✓ Found security clock at (2265, 58) with score 0.894
+✓ Found tactical view at (1186, 14)
+✓ Found end turn at (2177, 1236)
+⚠ Alarm not found (may be inactive)
+⚠ Daemons panel not found
+✓ Found objectives panel at (2088, 1140)
+✓ Found profile rectangle at (148, 1057)
+  Searching for AP labels in region: (185,651,80,386)
+  Found 4 cyan text regions
+  Found 4 AP labels
+✓ Inferred agent icon 1 at (147, 892) from AP at y=910
+✓ Inferred agent icon 2 at (147, 932) from AP at y=950
+✓ Inferred agent icon 3 at (147, 972) from AP at y=990
+✓ Inferred agent icon 4 at (147, 1012) from AP at y=1030
+✓ Detected 4 agent icons via AP labels
+✓ Found augments panel at (334, 1151)
+✓ Found inventory panel at (544, 1151)
+✓ Found quick actions panel at (332, 1181)
+
+============================================================
+Detection Summary:
+============================================================
+Found 18 elements:
+  - power_text: confidence=0.90, method=power_credits_full_text
+  - hamburger_menu: confidence=0.95, method=horizontal_lines_pattern
+  - security_clock: confidence=0.85, method=red_circular_shape
+  - tactical_view: confidence=0.80, method=teal_polygon_top_center
+  - end_turn: confidence=0.90, method=cyan_polygon_bottom_right
+  - objectives: confidence=0.70, method=text_panel_lower_right
+  - profile_rectangle: confidence=0.70, method=rectangular_region_lower_left
+  - ap_label_1: confidence=0.80, method=cyan_text_ap_label
+  - agent_icon_1: confidence=0.75, method=inferred_from_ap_label
+  - ap_label_2: confidence=0.80, method=cyan_text_ap_label
+  - agent_icon_2: confidence=0.75, method=inferred_from_ap_label
+  - ap_label_3: confidence=0.80, method=cyan_text_ap_label
+  - agent_icon_3: confidence=0.75, method=inferred_from_ap_label
+  - ap_label_4: confidence=0.80, method=cyan_text_ap_label
+  - agent_icon_4: confidence=0.75, method=inferred_from_ap_label
+  - augments: confidence=0.60, method=text_panel_lower_left
+  - inventory: confidence=0.60, method=items_panel_lower_left
+  - quick_actions: confidence=0.60, method=actions_panel_lower_left
+✓ Inferred viewport from power/credits: (145, 12, 2270, 1278)
+
+Viewport: (145, 12, 2270, 1278)
+
+============================================================
+Extracted Values:
+============================================================
+  OCR region: 197×24px
+  OCR attempt 1: '10/20PWR 72314'
+  OCR attempt 2: '10/20PWR 72314'
+  OCR attempt 3: '10/20PR PR'
+Power: 10/20
+  OCR region: 197×24px
+  OCR attempt 1: '10/20PWR 72314'
+  OCR attempt 2: '10/20PWR 72314'
+  OCR attempt 3: '10/20PR PR'
+  Fallback - all numbers found: ['10', '20', '72314']
+Credits: 72314
+Security Level: 2
+
+  Extracting AP values for 4 labels: ['ap_label_1', 'ap_label_2', 'ap_label_3', 'ap_label_4']
+  Processing ap_label_1: AP bbox at (185, 902, 65, 17)
+    binary_80: '12AP'
+    binary_60: '12AP'
+    otsu: '12AP'
+    adaptive_15: 'AP'
+    inverted_80: '12AP'
+    morpho_80: '12AP'
+    binary_100: '12AP'
+  ✓ agent_icon_1: 12 AP (method: binary_80)
+  Processing ap_label_2: AP bbox at (185, 942, 65, 17)
+    binary_80: '8AP'
+    binary_60: '8AP'
+    otsu: '8AP'
+    adaptive_15: 'AP'
+    inverted_80: '8AP'
+    morpho_80: '8AP'
+    binary_100: '8AP'
+  ✓ agent_icon_2: 8 AP (method: binary_80)
+  Processing ap_label_3: AP bbox at (185, 982, 65, 17)
+    binary_80: '12AP'
+    binary_60: '12AP'
+    otsu: '12AP'
+    adaptive_15: ''
+    inverted_80: '12AP'
+    morpho_80: '12AP'
+    binary_100: '12AP'
+  ✓ agent_icon_3: 12 AP (method: binary_80)
+  Processing ap_label_4: AP bbox at (185, 1022, 65, 17)
+    binary_80: '6AP'
+    binary_60: '6AP'
+    otsu: '6AP'
+    adaptive_15: 'AP'
+    inverted_80: '6AP'
+    morpho_80: '6AP'
+    binary_100: '6AP'
+  ✓ agent_icon_4: 6 AP (method: binary_80)
+
+Agent AP Values:
+  agent_icon_1: 12 AP
+  agent_icon_2: 8 AP
+  agent_icon_3: 12 AP
+  agent_icon_4: 6 AP
+✓ Inferred viewport from power/credits: (145, 12, 2270, 1278)
+
+✓ Saved visualization to window_test_normal_detected.png
+✓ Inferred viewport from power/credits: (145, 12, 2270, 1278)
+✓ Saved detections to window_test_normal_detected.json

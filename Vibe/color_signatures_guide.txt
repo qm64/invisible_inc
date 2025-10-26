@@ -1,0 +1,30 @@
+COLOR SIGNATURES QUICK REFERENCE
+============================================================
+
+VIEWPORT DETECTION (use these anchors):
+  - tactical_view (top center)
+  - menu_hamburger (top right)
+  - security_clock (right side)
+  - end_turn (bottom right)
+  - incognita_upper (top left - always present)
+
+MODE DETECTION:
+  Agent Mode Full: Look for 'agent_profile' or 'agent_icons'
+  Agent Mode Moving: Look for 'lower_left_agent_moving'
+  Drone Mode: Look for 'lower_left_drone'
+  Mainframe Mode: Look for 'incognita_programs'
+  Blank Lower Left: None of the above found
+
+DETECTION PRIORITY:
+  1. Detect viewport using always_present elements
+  2. Check for mainframe mode (incognita_programs)
+  3. Check for agent mode elements
+  4. If lower left empty, proceed with top/right only
+
+VALUE READING LOCATIONS:
+  Power: Above incognita_upper
+  Credits: Above incognita_upper (below power)
+  Security Level: Inside security_clock region
+  Agent AP: Next to each agent icon
+  Selected Agent: Read profile name text
+

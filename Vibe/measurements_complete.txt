@@ -1,0 +1,21 @@
+Image: measure_me.png
+Size: 2560x1301
+
+tactical_view: x=1184, y=15, w=191, h=23
+menu_hamburger: x=2377, y=8, w=32, h=27
+incognita_upper: x=151, y=57, w=180, h=66
+end_turn: x=2176, y=1234, w=193, h=38
+power: x=149, y=22, w=87, h=14
+credits: x=272, y=20, w=74, h=16
+alarm: x=2330, y=132, w=31, h=33
+security_clock: x=2269, y=55, w=155, h=170
+daemons: x=2270, y=230, w=149, h=132
+agent_icon_1: x=149, y=891, w=39, h=37
+agent_icon_2: x=149, y=928, w=36, h=41
+agent_icon_3: x=149, y=969, w=36, h=40
+agent_icon_4: x=149, y=1009, w=36, h=39
+agent_profile: x=147, y=1054, w=186, h=226
+augments: x=333, y=1130, w=171, h=62
+inventory: x=542, y=1130, w=260, h=74
+quick_actions: x=332, y=1210, w=174, h=63
+objectives: x=2138, y=1059, w=271, h=164

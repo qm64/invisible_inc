@@ -1,0 +1,263 @@
+{
+  "power_text": {
+    "bbox": [
+      145,
+      22,
+      197,
+      14
+    ],
+    "center": [
+      243,
+      29
+    ],
+    "confidence": 0.9,
+    "method": "power_credits_full_text"
+  },
+  "hamburger_menu": {
+    "bbox": [
+      2382,
+      14,
+      26,
+      22
+    ],
+    "center": [
+      2395,
+      25
+    ],
+    "confidence": 0.95,
+    "method": "horizontal_lines_pattern"
+  },
+  "security_clock": {
+    "bbox": [
+      2265,
+      58,
+      162,
+      186
+    ],
+    "center": [
+      2346,
+      151
+    ],
+    "confidence": 0.85,
+    "method": "red_circular_shape"
+  },
+  "tactical_view": {
+    "bbox": [
+      1186,
+      14,
+      190,
+      27
+    ],
+    "center": [
+      1281,
+      27
+    ],
+    "confidence": 0.8,
+    "method": "teal_polygon_top_center"
+  },
+  "end_turn": {
+    "bbox": [
+      2177,
+      1236,
+      189,
+      26
+    ],
+    "center": [
+      2271,
+      1249
+    ],
+    "confidence": 0.9,
+    "method": "cyan_polygon_bottom_right"
+  },
+  "objectives": {
+    "bbox": [
+      2088,
+      1140,
+      327,
+      132
+    ],
+    "center": [
+      2251,
+      1206
+    ],
+    "confidence": 0.7,
+    "method": "text_panel_lower_right"
+  },
+  "profile_rectangle": {
+    "bbox": [
+      148,
+      1057,
+      184,
+      221
+    ],
+    "center": [
+      240,
+      1167
+    ],
+    "confidence": 0.7,
+    "method": "rectangular_region_lower_left"
+  },
+  "ap_label_1": {
+    "bbox": [
+      185,
+      902,
+      65,
+      17
+    ],
+    "center": [
+      217,
+      910
+    ],
+    "confidence": 0.8,
+    "method": "cyan_text_ap_label"
+  },
+  "agent_icon_1": {
+    "bbox": [
+      147,
+      892,
+      36,
+      36
+    ],
+    "center": [
+      165,
+      910
+    ],
+    "confidence": 0.75,
+    "method": "inferred_from_ap_label"
+  },
+  "ap_label_2": {
+    "bbox": [
+      185,
+      942,
+      65,
+      17
+    ],
+    "center": [
+      217,
+      950
+    ],
+    "confidence": 0.8,
+    "method": "cyan_text_ap_label"
+  },
+  "agent_icon_2": {
+    "bbox": [
+      147,
+      932,
+      36,
+      36
+    ],
+    "center": [
+      165,
+      950
+    ],
+    "confidence": 0.75,
+    "method": "inferred_from_ap_label"
+  },
+  "ap_label_3": {
+    "bbox": [
+      185,
+      982,
+      65,
+      17
+    ],
+    "center": [
+      217,
+      990
+    ],
+    "confidence": 0.8,
+    "method": "cyan_text_ap_label"
+  },
+  "agent_icon_3": {
+    "bbox": [
+      147,
+      972,
+      36,
+      36
+    ],
+    "center": [
+      165,
+      990
+    ],
+    "confidence": 0.75,
+    "method": "inferred_from_ap_label"
+  },
+  "ap_label_4": {
+    "bbox": [
+      185,
+      1022,
+      65,
+      17
+    ],
+    "center": [
+      217,
+      1030
+    ],
+    "confidence": 0.8,
+    "method": "cyan_text_ap_label"
+  },
+  "agent_icon_4": {
+    "bbox": [
+      147,
+      1012,
+      36,
+      36
+    ],
+    "center": [
+      165,
+      1030
+    ],
+    "confidence": 0.75,
+    "method": "inferred_from_ap_label"
+  },
+  "augments": {
+    "bbox": [
+      334,
+      1151,
+      170,
+      44
+    ],
+    "center": [
+      419,
+      1173
+    ],
+    "confidence": 0.6,
+    "method": "text_panel_lower_left"
+  },
+  "inventory": {
+    "bbox": [
+      544,
+      1151,
+      254,
+      56
+    ],
+    "center": [
+      671,
+      1179
+    ],
+    "confidence": 0.6,
+    "method": "items_panel_lower_left"
+  },
+  "quick_actions": {
+    "bbox": [
+      332,
+      1181,
+      176,
+      14
+    ],
+    "center": [
+      420,
+      1188
+    ],
+    "confidence": 0.6,
+    "method": "actions_panel_lower_left"
+  },
+  "viewport": {
+    "bbox": [
+      145,
+      12,
+      2270,
+      1278
+    ],
+    "inferred": true
+  }
+}

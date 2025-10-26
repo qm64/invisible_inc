@@ -1,0 +1,151 @@
+{
+  "power_text": {
+    "bbox": [
+      145,
+      22,
+      197,
+      14
+    ],
+    "center": [
+      243,
+      29
+    ],
+    "confidence": 0.9,
+    "method": "power_credits_full_text"
+  },
+  "hamburger_menu": {
+    "bbox": [
+      2382,
+      14,
+      26,
+      22
+    ],
+    "center": [
+      2395,
+      25
+    ],
+    "confidence": 0.95,
+    "method": "horizontal_lines_pattern"
+  },
+  "security_clock": {
+    "bbox": [
+      2264,
+      58,
+      163,
+      186
+    ],
+    "center": [
+      2345,
+      151
+    ],
+    "confidence": 0.85,
+    "method": "red_circular_shape"
+  },
+  "tactical_view": {
+    "bbox": [
+      1186,
+      14,
+      190,
+      27
+    ],
+    "center": [
+      1281,
+      27
+    ],
+    "confidence": 0.8,
+    "method": "teal_polygon_top_center"
+  },
+  "end_turn": {
+    "bbox": [
+      2177,
+      1236,
+      189,
+      27
+    ],
+    "center": [
+      2271,
+      1249
+    ],
+    "confidence": 0.9,
+    "method": "cyan_polygon_bottom_right"
+  },
+  "objectives": {
+    "bbox": [
+      2088,
+      1140,
+      327,
+      138
+    ],
+    "center": [
+      2251,
+      1209
+    ],
+    "confidence": 0.7,
+    "method": "text_panel_lower_right"
+  },
+  "profile_rectangle": {
+    "bbox": [
+      148,
+      1057,
+      184,
+      221
+    ],
+    "center": [
+      240,
+      1167
+    ],
+    "confidence": 0.7,
+    "method": "rectangular_region_lower_left"
+  },
+  "agent_icon_1": {
+    "bbox": [
+      147,
+      985,
+      40,
+      60
+    ],
+    "center": [
+      167,
+      1015
+    ],
+    "confidence": 0.65,
+    "method": "colored_square_left_edge"
+  },
+  "agent_icon_2": {
+    "bbox": [
+      147,
+      943,
+      40,
+      60
+    ],
+    "center": [
+      167,
+      973
+    ],
+    "confidence": 0.65,
+    "method": "colored_square_left_edge"
+  },
+  "agent_icon_3": {
+    "bbox": [
+      147,
+      901,
+      40,
+      60
+    ],
+    "center": [
+      167,
+      931
+    ],
+    "confidence": 0.65,
+    "method": "colored_square_left_edge"
+  },
+  "viewport": {
+    "bbox": [
+      145,
+      12,
+      2270,
+      1278
+    ],
+    "inferred": true
+  }
+}

@@ -1,0 +1,48 @@
+ui_elements/full_interface.png:
+  Point 1: (79, 29)
+  Point 2: (213, 31)
+  Point 3: (2472, 158)
+
+ui_elements/agent_panel.png:
+  Point 1: (123, 1330)
+  Point 2: (47, 1176)
+  Point 3: (43, 1130)
+  Point 4: (46, 1088)
+  Point 5: (45, 1050)
+  Point 6: (48, 1014)
+
+ui_elements/selected_agent.png:
+  Point 1: (126, 1331)
+
+ui_elements/end_turn_button.png:
+  Point 1: (2397, 1387)
+
+agents/movement_range.png:
+  Point 1: (1265, 341)
+  Point 2: (1209, 381)
+  Point 3: (1251, 420)
+  Point 4: (1195, 477)
+  Point 5: (1099, 522)
+  Point 6: (1032, 572)
+  Point 7: (947, 536)
+  Point 8: (1180, 570)
+  Point 9: (1247, 604)
+  Point 10: (1215, 663)
+  Point 11: (1125, 611)
+  Point 12: (1203, 766)
+  Point 13: (1255, 726)
+  Point 14: (1358, 673)
+  Point 15: (1440, 633)
+  Point 16: (1495, 675)
+  Point 17: (1538, 577)
+  Point 18: (1607, 514)
+  Point 19: (1555, 477)
+  Point 20: (1497, 443)
+  Point 21: (1535, 386)
+  Point 22: (1616, 457)
+  Point 23: (1676, 474)
+  Point 24: (1474, 722)
+
+situations/alarm_level.png:
+  Point 1: (1270, 745)
+

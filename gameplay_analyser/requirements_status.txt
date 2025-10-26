@@ -1,0 +1,31 @@
+# Game Status Detector Dependencies
+
+# Core image processing
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# OCR for text extraction
+pytesseract>=0.3.10
+
+# Existing dependencies from capture system
+mss>=9.0.0
+pillow>=10.0.0
+pynput>=1.7.6
+sounddevice>=0.4.6
+scipy>=1.11.0
+pygetwindow>=0.0.9
+
+# ============================================
+# SYSTEM DEPENDENCIES (install separately)
+# ============================================
+# 
+# 1. Tesseract OCR (required for game status detector)
+#    macOS:   brew install tesseract
+#    Ubuntu:  sudo apt-get install tesseract-ocr
+#    Windows: https://github.com/UB-Mannheim/tesseract/wiki
+#
+# 2. Python Tkinter (required by pynput on macOS/Linux)
+#    macOS:   brew install python-tk@3.13
+#    Ubuntu:  sudo apt-get install python3-tk
+#    Windows: Usually included with Python
+

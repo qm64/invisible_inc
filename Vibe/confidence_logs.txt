@@ -1,0 +1,53 @@
+[Window] Updated: x=774, y=119, size=1786x1236
+[YOUR TURN] Power:  0 | Credits:    0 | Conf: 6.9%[Window] Found by exact owner: 'InvisibleInc'     
+[Window] Updated: x=774, y=119, size=1786x1236
+[YOUR TURN] Power:  0 | Credits:    0 | Conf: 9.4%[Window] Found by exact owner: 'InvisibleInc'     
+[Window] Updated: x=774, y=119, size=1786x1236
+[YOUR TURN] Power:  0 | Credits:    0 | Conf: 9.0%[Window] Found by exact owner: 'InvisibleInc'     
+[Window] Updated: x=774, y=119, size=1786x1236
+[YOUR TURN] Power:  0 | Credits:    0 | Conf: 6.8%[Window] Found by exact owner: 'InvisibleInc'     
+[Window] Updated: x=774, y=119, size=1786x1236
+[YOUR TURN] Power:  0 | Credits:    0 | Conf: 9.5%[Window] Found by exact owner: 'InvisibleInc'     
+[Window] Updated: x=774, y=119, size=1786x1236
+[YOUR TURN] Power:  0 | Credits:    0 | Conf: 11.6%[Window] Found by exact owner: 'InvisibleInc'    
+[Window] Updated: x=774, y=119, size=1786x1236
+[YOUR TURN] Power:  0 | Credits:    0 | Conf: 12.0%[Window] Found by exact owner: 'InvisibleInc'    
+[Window] Updated: x=774, y=119, size=1786x1236
+[YOUR TURN] Power:  0 | Credits:    0 | Conf: 12.1%[Window] Found by exact owner: 'InvisibleInc'    
+[Window] Updated: x=774, y=119, size=1786x1236
+[YOUR TURN] Power:  0 | Credits:    0 | Conf: 11.7%[Window] Found by exact owner: 'InvisibleInc'    
+[Window] Updated: x=774, y=119, size=1786x1236
+[YOUR TURN] Power:  0 | Credits:    0 | Conf: 12.0%[Window] Found by exact owner: 'InvisibleInc'    
+[Window] Updated: x=774, y=119, size=1786x1236
+[YOUR TURN] Power:  0 | Credits:    0 | Conf: 11.9%[Window] Found by exact owner: 'InvisibleInc'    
+[Window] Updated: x=774, y=119, size=1786x1236
+[YOUR TURN] Power:  0 | Credits:    0 | Conf: 12.2%[Window] Found by exact owner: 'InvisibleInc'    
+[Window] Updated: x=774, y=119, size=1786x1236
+[ENEMY TURN] Conf: 0.0%[Window] Found by exact owner: 'InvisibleInc'                                
+[Window] Updated: x=774, y=119, size=1786x1236
+[ENEMY TURN] Conf: 0.0%[Window] Found by exact owner: 'InvisibleInc'                                
+[Window] Updated: x=774, y=119, size=1786x1236
+[ENEMY TURN] Conf: 0.0%[Window] Found by exact owner: 'InvisibleInc'                                
+[Window] Updated: x=774, y=119, size=1786x1236
+[YOUR TURN] Power:  0 | Credits:    0 | Conf: 11.9%[Window] Found by exact owner: 'InvisibleInc'    
+[Window] Updated: x=774, y=119, size=1786x1236
+[YOUR TURN] Power:  0 | Credits:    0 | Conf: 11.7%[Window] Found by exact owner: 'InvisibleInc'    
+[Window] Updated: x=774, y=119, size=1786x1236
+[ENEMY TURN] Conf: 0.1%[Window] Found by exact owner: 'InvisibleInc'                                
+[Window] Updated: x=774, y=119, size=1786x1236
+[ENEMY TURN] Conf: 0.0%[Window] Found by exact owner: 'InvisibleInc'                                
+[Window] Updated: x=774, y=119, size=1786x1236
+[ENEMY TURN] Conf: 0.0%[Window] Found by exact owner: 'InvisibleInc'                                
+[Window] Updated: x=774, y=119, size=1786x1236
+[YOUR TURN] Power:  0 | Credits:    0 | Conf: 12.1%[Window] Found by exact owner: 'InvisibleInc'    
+[Window] Updated: x=774, y=119, size=1786x1236
+[YOUR TURN] Power:  0 | Credits:    0 | Conf: 11.9%[Window] Found by exact owner: 'InvisibleInc'    
+[Window] Updated: x=774, y=119, size=1786x1236
+[YOUR TURN] Power:  0 | Credits:    0 | Conf: 12.1%[Window] Found by exact owner: 'InvisibleInc'    
+[Window] Updated: x=751, y=118, size=1786x1236
+[ENEMY TURN] Conf: 3.2%[Window] Found by exact owner: 'InvisibleInc'                                
+[Window] Updated: x=751, y=118, size=1786x1236
+[ENEMY TURN] Conf: 2.5%[Window] Found by exact owner: 'InvisibleInc'                                
+[Window] Updated: x=751, y=118, size=1786x1236
+[ENEMY TURN] Conf: 2.3%[Window] Found by exact owner: 'InvisibleInc'                                
+[Window] Updated: x=751, y=118, size=1786x1236

@@ -1,0 +1,28 @@
+Image: captures/20251022_201216/frames/frame_000081.png
+Size: 2560x1440
+
+1. agent_1_ap:
+   Upper-left: (66, 1120)
+   Lower-right: (126, 1139)
+   Size: 60x19
+
+2. agent_2_ap:
+   Upper-left: (65, 1157)
+   Lower-right: (126, 1179)
+   Size: 61x22
+
+3. agent_1_icon:
+   Upper-left: (24, 1107)
+   Lower-right: (65, 1146)
+   Size: 41x39
+
+4. agent_2_icon:
+   Upper-left: (25, 1148)
+   Lower-right: (61, 1190)
+   Size: 36x42
+
+5. agent_large_profile:
+   Upper-left: (24, 1194)
+   Lower-right: (209, 1417)
+   Size: 185x223
+

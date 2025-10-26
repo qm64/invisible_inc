@@ -1,0 +1,44 @@
+# ============================================
+# Invisible Inc Game Analysis Toolkit
+# Complete Requirements
+# ============================================
+
+# Core dependencies (required for all platforms)
+mss>=9.0.0
+pillow>=10.0.0
+pynput>=1.7.6
+sounddevice>=0.4.6
+scipy>=1.11.0
+numpy>=1.24.0
+
+# Computer vision (turn phase detector, game status detector)
+opencv-python>=4.8.0
+
+# OCR for game status detector
+pytesseract>=0.3.10
+
+# Optional: Better window detection on Windows/Linux
+pygetwindow>=0.0.9; sys_platform != 'darwin'
+
+# Optional: Better window detection on macOS
+# Note: This is pyobjc-framework-Quartz, NOT quartz
+pyobjc-framework-Quartz>=10.0; sys_platform == 'darwin'
+
+# ============================================
+# SYSTEM DEPENDENCIES (install separately)
+# ============================================
+# 
+# macOS:
+#   brew install tesseract           # For OCR (game status detector)
+#   brew install python-tk@3.13      # For pynput (input capture)
+#
+# Ubuntu/Debian:
+#   sudo apt-get install tesseract-ocr   # For OCR
+#   sudo apt-get install python3-tk      # For pynput
+#
+# Windows:
+#   - Tesseract: https://github.com/UB-Mannheim/tesseract/wiki
+#   - Tkinter: Usually included with Python
+#
+# Optional (macOS only, for system audio capture):
+#   brew install blackhole-2ch       # Virtual audio device

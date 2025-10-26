@@ -1,0 +1,11 @@
+# Ignore .DS_Store
+.DS_Store
+
+# gameplay/backup
+gameplay_analyser/backup/*
+
+# captures
+gameplay_analyser/captures/*
+
+# pycache
+*/__pycache__/*

@@ -1,0 +1,123 @@
+{
+  "power_text": {
+    "bbox": [
+      146,
+      22,
+      196,
+      14
+    ],
+    "center": [
+      244,
+      29
+    ],
+    "confidence": 0.9,
+    "method": "power_credits_full_text"
+  },
+  "hamburger_menu": {
+    "bbox": [
+      2382,
+      14,
+      26,
+      22
+    ],
+    "center": [
+      2395,
+      25
+    ],
+    "confidence": 0.95,
+    "method": "horizontal_lines_pattern"
+  },
+  "security_clock": {
+    "bbox": [
+      2265,
+      58,
+      162,
+      186
+    ],
+    "center": [
+      2346,
+      151
+    ],
+    "confidence": 0.85,
+    "method": "red_circular_shape"
+  },
+  "tactical_view": {
+    "bbox": [
+      1186,
+      14,
+      190,
+      27
+    ],
+    "center": [
+      1281,
+      27
+    ],
+    "confidence": 0.8,
+    "method": "teal_polygon_top_center"
+  },
+  "end_turn": {
+    "bbox": [
+      2177,
+      1236,
+      189,
+      26
+    ],
+    "center": [
+      2271,
+      1249
+    ],
+    "confidence": 0.9,
+    "method": "cyan_polygon_bottom_right"
+  },
+  "objectives": {
+    "bbox": [
+      2088,
+      1140,
+      327,
+      132
+    ],
+    "center": [
+      2251,
+      1206
+    ],
+    "confidence": 0.7,
+    "method": "text_panel_lower_right"
+  },
+  "profile_rectangle": {
+    "bbox": [
+      148,
+      1057,
+      185,
+      221
+    ],
+    "center": [
+      240,
+      1167
+    ],
+    "confidence": 0.7,
+    "method": "rectangular_region_lower_left"
+  },
+  "quick_actions": {
+    "bbox": [
+      249,
+      1181,
+      60,
+      95
+    ],
+    "center": [
+      279,
+      1228
+    ],
+    "confidence": 0.6,
+    "method": "actions_panel_lower_left"
+  },
+  "viewport": {
+    "bbox": [
+      146,
+      12,
+      2268,
+      1278
+    ],
+    "inferred": true
+  }
+}
