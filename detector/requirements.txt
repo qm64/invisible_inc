@@ -1,0 +1,25 @@
+# Modular Detector Framework Requirements
+# Install with: pip install -r requirements.txt
+
+# Core Computer Vision
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# OCR (for structural_detector.py text extraction)
+pytesseract>=0.3.10
+
+# Note: pytesseract requires Tesseract OCR to be installed on your system
+# Installation instructions:
+#   macOS:   brew install tesseract
+#   Linux:   sudo apt-get install tesseract-ocr
+#   Windows: https://github.com/UB-Mannheim/tesseract/wiki
+
+# Optional: For web viewer (if using)
+# flask>=2.3.0
+
+# Optional: For parallel processing optimization
+# Note: multiprocessing is in Python standard library, no install needed
+
+# Development/Testing (optional)
+# pytest>=7.4.0
+# pytest-cov>=4.1.0

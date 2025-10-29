@@ -1,0 +1,20 @@
+Executing query from: queries/summary_stats.sql
+Database: analysis.db
+================================================================================
+
++-------------------------+-------+
+| metric                  | value |
++-------------------------+-------+
+| Total Frames            | 24265 |
+| Game Frames             | 11854 |
+| Non-Game Frames         | 12411 |
+| Avg Brightness (game)   | 28.5  |
+| Avg Aspect Ratio (game) | 1.78  |
+| Frames with Cyan        | 11070 |
+| Frames with Yellow      | 8435  |
+| Frames with Red         | 10932 |
+| Frames with ALL colors  | 7910  |
++-------------------------+-------+
+
+9 row(s) returned.
+

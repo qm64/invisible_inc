@@ -98,9 +98,11 @@ class UnifiedWindowFinder:
             if window:
                 return window
         
-        # Method 3: Fallback to fullscreen
-        print("  → No window found, using fullscreen capture")
-        return self._fallback_fullscreen()
+        # # Method 3: Fallback to fullscreen
+        # print("  → No window found, using fullscreen capture")
+        # return self._fallback_fullscreen()
+        print("  → No window found, skipping capture")
+        return None
     
     def is_game_focused(self) -> bool:
         """

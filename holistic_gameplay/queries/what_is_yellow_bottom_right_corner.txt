@@ -1,0 +1,21 @@
+Executing query from: queries/what_is_yellow_bottom_right_corner.sql
+Database: analysis.db
+================================================================================
+
++----------------------------------------------------+
+| path                                               |
++----------------------------------------------------+
+| ./captures/20251021_224508/frames/frame_000329.png |
+| ./captures/20251021_224508/frames/frame_000315.png |
+| ./captures/20251021_224508/frames/frame_000467.png |
+| ./captures/20251021_224508/frames/frame_000473.png |
+| ./captures/20251021_224508/frames/frame_000301.png |
+| ./captures/20251021_224508/frames/frame_000659.png |
+| ./captures/20251021_224508/frames/frame_000671.png |
+| ./captures/20251021_224508/frames/frame_000117.png |
+| ./captures/20251021_224508/frames/frame_000739.png |
+| ./captures/20251021_224508/frames/frame_000705.png |
++----------------------------------------------------+
+
+10 row(s) returned.
+

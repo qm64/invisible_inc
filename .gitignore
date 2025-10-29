@@ -2,10 +2,19 @@
 .DS_Store
 
 # gameplay/backup
-gameplay_analyser/backup/*
+**/backup/*
 
 # captures
-gameplay_analyser/captures/*
+**/captures/*
 
 # pycache
 */__pycache__/*
+
+# Zip files
+*.zip
+
+# Any "files" folders from Claude zips
+*/files/*
+
+# Database files (can be recreated)
+*.db
