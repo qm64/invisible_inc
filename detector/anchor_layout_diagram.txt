@@ -1,0 +1,125 @@
+INVISIBLE INC - UI ANCHOR LAYOUT
+================================
+
+                    ┌─────────────────────────────────────────────────┐
+                    │         TACTICAL VIEW POLYGON (top)             │
+                    │         TacticalViewDetector (80.9%)            │
+                    └─────────────────────────────────────────────────┘
+                    
+    ┌─────────────────────┐                         ┌────────────┬──────────┐
+    │ XX/YY PWR ZZZZZ     │                         │ SECURITY   │ HAMBURGER│
+    │ PowerCreditsAnchor  │                         │  CLOCK     │  MENU    │
+    │ (77.2%)             │                         │  (38.4%)   │ (78.2%)  │
+    └─────────────────────┘                         └────────────┴──────────┘
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+                                                    ┌──────────────────────────┐
+                                                    │      END TURN BUTTON     │
+                                                    │   EndTurnDetector (97%+) │
+                                                    └──────────────────────────┘
+
+
+DETECTOR LOCATIONS
+==================
+
+1. TacticalViewDetector
+   - Location: Top center
+   - Searches: Top 15% of image
+   - Method: Edge detection + polygon contours
+   - Defines: Top edge of viewport
+   
+2. PowerCreditsAnchorDetector  
+   - Location: Upper-left area
+   - Searches: Upper-left quadrant (w/2 × h/4)
+   - Method: HSV cyan detection for "PWR" text
+   - Purpose: Anchor for power/credits OCR extraction
+   
+3. HamburgerMenuDetector
+   - Location: Upper-right corner
+   - Searches: Right third, top quarter
+   - Method: 3 horizontal white lines pattern
+   - Defines: Right edge of viewport
+   
+4. SecurityClockDetector
+   - Location: Upper-right (below hamburger)
+   - Searches: Right 500px, top third
+   - Method: Red/orange circular contours
+   - Warning: Low reliability (38.4%)
+   
+5. EndTurnDetector
+   - Location: Lower-right area
+   - Searches: Lower-right quadrant
+   - Method: HSV cyan color (H: 85-100°)
+   - Purpose: Most reliable turn phase indicator
+
+
+SPATIAL RELATIONSHIPS
+======================
+
+Viewport Inference:
+  - LEFT edge   = PowerCreditsAnchor.bbox.x
+  - TOP edge    = TacticalView.bbox.y
+  - RIGHT edge  = HamburgerMenu.bbox.x + width
+  - BOTTOM edge = EndTurn.bbox.y + height
+
+Dependent Detectors:
+  - Power/Credits OCR → uses PowerCreditsAnchor
+  - Alarm level OCR   → uses SecurityClock OR viewport-relative
+  - Turn number OCR   → uses HamburgerMenu proximity
+  - Agent icons       → uses LEFT edge + vertical spacing
+
+
+DETECTION SEQUENCE
+==================
+
+Recommended order (no dependencies):
+
+1. EndTurnDetector          (turn phase indicator)
+2. PowerCreditsAnchorDetector  (resource extraction anchor)
+3. HamburgerMenuDetector    (viewport right edge)
+4. TacticalViewDetector     (viewport top edge)
+5. SecurityClockDetector    (optional, low reliability)
+
+All can run in parallel - no inter-dependencies at this level.
+
+
+TYPICAL SUCCESS PATTERNS
+=========================
+
+Player Planning Phase:    All 5 detectors should succeed (except clock ~38%)
+Player Action Phase:      END TURN + upper anchors (lower left may be hidden)
+Opponent Turn:            Only upper anchors (no END TURN)
+Dialog Overlay:           Reduced success (~20% dimming effect)
+Mainframe Mode:          All present except layout differences
+
+
+INTEGRATION NOTES
+=================
+
+Use with DetectorRegistry:
+  
+  registry = DetectorRegistry()
+  registry.register(EndTurnDetector())
+  registry.register(PowerCreditsAnchorDetector())
+  # ... register others
+  
+  results = registry.detect_all(image)
+  
+  # Check turn phase
+  has_control = results['end_turn'].success
+  
+  # Get viewport bounds
+  if results['power_credits_anchor'].success:
+      left = results['power_credits_anchor'].data['bbox'][0]
+  
+  # Use for OCR positioning
+  pwr_bbox = results['power_credits_anchor'].data['pwr_bbox']

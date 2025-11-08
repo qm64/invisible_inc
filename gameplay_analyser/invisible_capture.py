@@ -196,7 +196,8 @@ class UnifiedWindowFinder:
                               ", inc" in window_title.lower())
                 
                 # Don't match terminal/editor windows
-                if 'terminal' in window_owner.lower() or 'code' in window_owner.lower():
+                if any(app in window_owner.lower() for app in 
+                       ['terminal', 'code', 'chrome', 'firefox', 'safari', 'browser']):
                     title_match = False
                 
                 owner_match = self.window_owner_name.lower() in window_owner.lower()
@@ -594,7 +595,7 @@ class CaptureSession:
         
         # Set defaults
         owner = window_owner_name or "InvisibleInc"
-        title = window_title_pattern or "Invisible"
+        title = window_title_pattern or "Invisible, Inc."
         
         print(f"\n{'='*70}")
         print(f"Invisible Inc Capture Session")
@@ -683,16 +684,20 @@ def main():
     """Run a capture session"""
     import signal
     import argparse
-    
+
+    # Default option strings
+    DEFAULT_WINDOW_OWNER = "InvisibleInc"
+    DEFAULT_WINDOW_TITLE = "Invisible, Inc."
+
     parser = argparse.ArgumentParser(
         description='Capture Invisible Inc gameplay across all platforms'
     )
     parser.add_argument('--fps', type=float, default=2.0,
                        help='Capture frame rate (default: 2.0)')
-    parser.add_argument('--owner', type=str, default="InvisibleInc",
-                       help='Window owner/process name (default: InvisibleInc)')
-    parser.add_argument('--title', type=str, default="Invisible",
-                       help='Window title pattern (default: Invisible)')
+    parser.add_argument('--owner', type=str, default=DEFAULT_WINDOW_OWNER,
+                       help=f'Window owner/process name (default: {DEFAULT_WINDOW_OWNER})')
+    parser.add_argument('--title', type=str, default=DEFAULT_WINDOW_TITLE,
+                       help=f'Window title pattern (default: {DEFAULT_WINDOW_TITLE})')
     
     args = parser.parse_args()
     

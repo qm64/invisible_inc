@@ -5,26 +5,26 @@ Generated: /Users/shaun/git/qm/invisible_inc/holistic_gameplay
 
 FRAME STATISTICS
 ----------------
-Total frames scanned:     24,265
-Game frames detected:     11,854 (48.9%)
-Non-game frames:          12,411 (51.1%)
+Total frames scanned:     37,264
+Game frames detected:     19,192 (51.5%)
+Non-game frames:          18,072 (48.5%)
 
 GAME FRAME CHARACTERISTICS
 ---------------------------
-Average brightness:       28.5 / 255
-Average aspect ratio:     1.78
+Average brightness:       29.6 / 255
+Average aspect ratio:     1.77
 
 UI COLOR PRESENCE
 -----------------
-Cyan (UI elements):       93.4% of game frames
-Yellow (text/warnings):   71.2% of game frames
-Red (alarms/threats):     92.2% of game frames
+Cyan (UI elements):       91.0% of game frames
+Yellow (text/warnings):   73.1% of game frames
+Red (alarms/threats):     93.0% of game frames
 
 INSIGHTS
 --------
 ✓ Cyan UI elements are nearly universal - excellent anchor for detection
 ✓ Yellow text appears frequently - good for secondary detection
-• Red elements present in 92.2% of frames - likely alarm states
+• Red elements present in 93.0% of frames - likely alarm states
 
 NEXT STEPS
 ----------

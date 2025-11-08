@@ -5,15 +5,15 @@ Database: analysis.db
 +-------------------------+-------+
 | metric                  | value |
 +-------------------------+-------+
-| Total Frames            | 24265 |
-| Game Frames             | 11854 |
-| Non-Game Frames         | 12411 |
-| Avg Brightness (game)   | 28.5  |
-| Avg Aspect Ratio (game) | 1.78  |
-| Frames with Cyan        | 11070 |
-| Frames with Yellow      | 8435  |
-| Frames with Red         | 10932 |
-| Frames with ALL colors  | 7910  |
+| Total Frames            | 37264 |
+| Game Frames             | 19192 |
+| Non-Game Frames         | 18072 |
+| Avg Brightness (game)   | 29.6  |
+| Avg Aspect Ratio (game) | 1.77  |
+| Frames with Cyan        | 17456 |
+| Frames with Yellow      | 14037 |
+| Frames with Red         | 17856 |
+| Frames with ALL colors  | 13311 |
 +-------------------------+-------+
 
 9 row(s) returned.
